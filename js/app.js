@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //variables for the game
     const qwerty = document.getElementById('qwerty');
     const phrase = document.getElementById('phrase');
-    const startGame = document.querySelector('.btn_reset');
+    const startGame = document.querySelector('.btn__reset');
     const overlay = startGame.parentNode;
     const scoreBoard = document.getElementById('scoreboard');
 
