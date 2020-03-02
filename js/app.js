@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (missCount > 4) {
             changeOverlay("lose", "You Lost, better luck next time  : ( ");
         }
+
     };
 
     // resets game
@@ -95,13 +96,14 @@ document.addEventListener("DOMContentLoaded", () => {
         missCount = 0;
     };
 
-    // Change the overlay
     const changeOverlay = (result, message) => {
-        overlay.className = result;
-        overlay.children[0].textContent = message;
-        overlay.style.display = "flex";
-        startGame.textContent = "play again?";
-    };
+        window.setTimeout(() => {
+            overlay.className = result;
+            overlay.children[0].textContent = message;
+            overlay.style.display = "flex";
+            startGame.textContent = "play again?";
+        }, 1000);
+    }
 
     // Listen for clicks on the screen keyboard
     qwerty.addEventListener("click", function(e) {
