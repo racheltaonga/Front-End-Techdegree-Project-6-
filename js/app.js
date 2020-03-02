@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
             overlay.children[0].textContent = message;
             overlay.style.display = "flex";
             startGame.textContent = "play again?";
-        }, 1000);
+        }, 2000);
     }
 
     // Listen for clicks on the screen keyboard
