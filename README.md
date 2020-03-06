@@ -10,3 +10,16 @@ A player can keep choosing letters until they have five incorrect guesses. If th
 
 A player can guess a letter only once. After they've guessed a letter, the letter is disabled. 
 
+I also went for the Exceeds Expectations Grading where I had to: 
+
+  1. Create CSS transitions for each letter in the phrase display as they are revealed. 
+  2. Add a button to the "success" and "failure" screens that resets the game. I had to create the buttons for the keyboard, generate a new random phrase, and set the number of misses to zero. 
+
+  Browsers tested for compatility: 
+
+  1. Chrome
+  2. Firefox
+  3. Edge
+
+  Grade: Exceeds Expectations 
+
